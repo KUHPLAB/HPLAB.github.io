@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>HPLAB / News</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="HPLAB" href="http://hplab.github.io/feed.xml">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+
+	<!-- Typekit -->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+		
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-26244371-2', 'bedford.io');
+		ga('send', 'pageview');
+
+	</script>
+	
+	<!-- jQuery -->
+	<script src="/js/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<script src="/js/transition.js"></script>
+	<script src="/js/collapse.js"></script>
+
+</head>
+
+<body>
+	
+	<div id="header">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+			<div class="container">	
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+										
+					<object class="logo navbar-brand" data="/images/logo.svg" type="image/svg+xml"></object>
+					<a class="navbar-brand" href="/">HPLAB</a>
+					
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-element">
+					<ul class="nav navbar-nav navbar-right">
+						
+						<li>
+						
+						<a href="/research/">Research</a>
+						</li>
+						
+						<li>
+						
+						<a href="/team/">Team</a>
+						</li>
+						
+						<li>
+						
+						<a href="/papers/">Publication</a></li>	  
+						
+						<li class="active">
+						
+						<a href="/blog/">News</a></li>	  	  
+					</ul>
+				</div>
+			</div>
+		</nav>	
+	</div>
+	
+	<div class="container">	
+		
+	<div class="row">
+	<div class="col-md-12">
+		<div class="centered-pills">
+			<ul class="nav nav-pills note">
+				<li role="presentation" class="active">
+					<a class="off" href="/blog/">
+						<i class="fa fa-refresh fa-fw"></i> Timeline
+					</a>
+				</li>
+				<li role="presentation">
+					<a class="off" href="/blog/archive/">
+						<i class="fa fa-list-ul fa-fw"></i> Index
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bigspacer"></div>
+	</div>
+</div>
+
+<div class="post-list">
+
+
+
+	<div class="blog-post">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="media">
+					<div class="media-body">
+						<div class="title media-heading">
+							<a href="/blog/new-homepage/" class="off">New HPLAB Github page</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							19 Apr 2020
+							
+							by <a class="off" href="
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    /team/song-in-uk/
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              ">
+              Inuk Song
+              </a>
+							
+              
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				
+				
+				<img class="offset" src="/images/logo.png">
+				
+				
+				<div class="post">
+					<p>I made new Github page by using jekyll. This homepage is easy to manage students’ profile, publications, news and notice. If you learn Git and Markdown little bit, it is really easy to manage the webpage.</p>
+
+<p>Furthermore, I designed lab logo. The logo symbolizes the brain (including EEG, please see tiny electric wave in logo!) and human behavior performance (Stopwatch).</p>
+
+<p>I hope you like a style of new website. Thanks.</p>
+
+
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+		<div class="spacer"></div>
+
+	</div>
+
+
+
+	<div class="blog-post">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="media">
+					<div class="media-body">
+						<div class="title media-heading">
+							<a href="/blog/research-assistant/" class="off">Research Assistant Recruitment 2019</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							28 May 2019
+							
+							by <a class="off" href="
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    /team/cho-yang-seok/
+                  
+                
+              ">
+              Yang Seok Cho
+              </a>
+							
+              
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				
+				<div class="post">
+					<p>Human Performance Lab<br />
+Korea University</p>
+
+<p>Lab director: Prof. Yang Seok Cho</p>
+
+<p>1.General Lab Information</p>
+
+<p>Research in Human Performance lab takes a cognitive and neuroscientific approach for investigating the nature of human selective attention, cognitive control, and response selection. As top-down factors including current task goals, working memory, and reward play significant roles in guiding attention, members of the lab conduct research on how each factor may change one’s perception and cognition. The lab adopts both behavioral and neurophysiologic measures that include fMRI and ERP techniques in conducting experiments.</p>
+
+<p>2.Criteria for Eligibility</p>
+
+<p>People who are interested in and eager to learn more about visual attention, cognitive control, and response selection are welcome to apply for our research assistant positions. What Professor Cho looks for in a candidate is someone who is planning to apply for a higher degree in cognitive psychology. Students who are in their Junior or Senior years of college are preferred.</p>
+
+<p>3.Quality of Work Expectations</p>
+
+<p>Research assistants are expected to spend time in the lab for 8 hours a week. We expect them to spend quality time in the lab by strictly attending to weekly study meeting, helping graduate students run on-going experiments, and doing programming or statistics assignments. Working as a research assistant in the lab will help you earn advanced knowledge and techniques on cognitive psychology.</p>
+
+<p>4.Contact Information</p>
+
+<p>Please contact Prof. Cho (yscho_psych@korea.ac.kr) before you send your application form. After filling out your application, please send it to one of Prof. Cho’s graduate students(delukamine@naver.com).<br />
+Feel free to ask questions regarding the position. The due date is June 9th, 2019.</p>
+
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+		<div class="spacer"></div>
+
+	</div>
+
+
+
+	<div class="blog-post">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="media">
+					<div class="media-body">
+						<div class="title media-heading">
+							<a href="/blog/humphreys/" class="off">Seminar by Humphreys</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							30 Jul 2010
+							
+							by <a class="off" href="
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    /team/cho-yang-seok/
+                  
+                
+              ">
+              Yang Seok Cho
+              </a>
+							
+              
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				
+				<div class="post">
+					<p>고려대 심리학과 BK21 뇌기반심리학 사업단과 성신여자대학교 대학원 임상신경심리 연구실 공동 주최로 영국 Birmingham University의 Dr. Glyn W. Humphreys 교수를 모시고 시각 주의 (visual attention)에 관한 세미나를 개최 하고자 합니다.</p>
+
+<p>제목: 시각 주의의 인지신경과학 및 신경심리학적 이해
+(From vision to action: The cognitive neuroscience and neuropsychology of human visual attention)</p>
+
+<p>강사: Glyn W. Humphreys
+Humphreys 교수는 현재 영국 Birmingham 대학 심리학과 교수인 동시에 Behavioural Brain Science Centre의 센터장으로서 이 센터에서 진행되는 모든 연구의 책임을 맡고 계십니다. 또한 Journal of Experimental Psychology: Human Perception and Performance의 chief editor이시기도 합니다. fMRI, ERP 등의 기법을 사용하여 시각 주의의 신경생리적 기제에 관한 연구를 하고 계십니다.</p>
+
+<p>세미나 내용:
+1) 시각 주의의 신경체계 (Neural systems of visual attention)
+2) 뇌영상 연구를 통해 살펴보는 시각 주의의 기능체계 (Functional systems of visual attention)
+3) 주의의 신경심리 장애 (Neuropsychological disorders of attention)
+4) 시각 주의 장애의 재활 (Rehabilitaion of disorders of attention)</p>
+
+<p>세미나 일자: 2010년 8월 13일, 오후 2시-6시
+세미나 장소: 고려대학교 백주년 기념관 지하 1층 원격회의실</p>
+
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+		<div class="spacer"></div>
+
+	</div>
+
+
+
+	<div class="blog-post">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="media">
+					<div class="media-body">
+						<div class="title media-heading">
+							<a href="/blog/new-members/" class="off">New members!</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							28 Mar 2010
+							
+							by <a class="off" href="
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    /team/cho-yang-seok/
+                  
+                
+              ">
+              Yang Seok Cho
+              </a>
+							
+              
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				
+				<div class="post">
+					<p>3 New researchers, from the Cognitive Brain Engineering department, joined the Lab.</p>
+
+<!--
+<br>
+![](/images/blog/ncov_transmission_chain_simple.png)
+<br>
+-->
+
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+
+		<div class="bigspacer"></div>
+		<div class="spacer"></div>
+
+	</div>
+
+
+
+</div>
+
+<div class="infinite-spinner"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div id="scroll" class="centered-pills">
+			<ul class="nav nav-pills note">
+				<li role="presentation">
+					<a class="off" href="/blog/">
+						<i class="fa fa-chevron-up fa-fw"></i> Back to top
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Infinite scroll -->
+<script async src="/js/infinite-scroll.js"></script>
+
+	
+	</div>
+	
+	<div id="footer"><span style="display:none">foo</span></div>
+		
+</body>
+</html>
+
