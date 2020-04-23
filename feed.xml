@@ -7,6 +7,20 @@
 		<atom:link href="http://hplab.github.io/feed.category.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Logo revision</title>
+				<description>&lt;p&gt;The previous logo symbolized EEG and Behavioral measurement.&lt;br /&gt;
+However, that contained too many lines, some members preferred simple style.&lt;br /&gt;
+In reflection of the members, I changed logo to make looks simple.&lt;/p&gt;
+
+&lt;p&gt;Please give some attention to our new logo!&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 23 Apr 2020 00:00:00 +0900</pubDate>
+				<link>http://hplab.github.io/blog/logo-revise/</link>
+				<guid isPermaLink="true">http://hplab.github.io/blog/logo-revise/</guid>
+			</item>
+		
+			<item>
 				<title>New HPLAB Github page</title>
 				<description>&lt;p&gt;I made new Github page by using jekyll. This homepage is easy to manage students’ profile, publications, news and notice. If you learn Git and Markdown little bit, it is really easy to manage the webpage.&lt;/p&gt;
 
